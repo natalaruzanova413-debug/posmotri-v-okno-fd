@@ -88,7 +88,7 @@ fieldset {
   align-items: center;
   gap: 40px;
   background: transparent;
-  padding: 16px 0 133px;
+  padding: 16px 0px 0px;
   box-sizing: border-box;
   width: 711px;
 }
@@ -127,7 +127,7 @@ h1.title {
 .search-form__fieldset {
   margin: 0;
   border: none;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .search-form__fieldset-title {
@@ -323,7 +323,6 @@ input[type="text"] {
 
 .content__card-link {
   display: block;
-  text-decoration: none;
   color: #fff;
   margin: 2px;
   background-color: transparent;
@@ -347,9 +346,8 @@ input[type="text"] {
   outline-offset: 0;
 }
 
-.content__card-link_current:default {
-  text-decoration: none;
-  background-color: transparent;
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .result__video-container {
@@ -376,7 +374,7 @@ input[type="text"] {
 
 .search-form__submit-button {
   width: 194px;
-  padding: 6px 73.5px 6px 65px;
+  padding: 5px 80px 3px 70px;
 }
 
 .more-button {
